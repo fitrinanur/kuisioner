@@ -1,0 +1,811 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+
+	.content-wrap-home {
+		margin: 140px auto 40px;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.other-pages header,
+	.home-page header {
+		top: 40px;
+    	padding: 0px;
+    	height: auto;
+    	justify-content: center;
+	}
+
+	.back-icon{
+		display: none;
+	}
+
+	.logo {
+	    text-align: center;
+	}
+
+	.logo img {
+	    width: 100px;
+	    height: 100px;
+	}
+	.content-wrap-home h2{
+		font-size: 96px;
+		line-height:1;
+	}
+
+	.content-wrap-home p{
+		font-size: 24px;
+	}
+
+	.home-page .main-content {
+		margin-top: 60px
+	   /* min-height: 85vh;*/
+	}
+
+	ul.que-ans.ans-text #ck-button{
+		margin-bottom: 30px;
+	}
+
+	.suggestion-page header {
+	    padding: 40px 0 0 0;
+	    height: 140px;
+	    position: inherit;
+	    display: block;
+	}
+
+	.suggestion-page header .logo,
+	.suggestion-page header .logo a{
+	    display: block;
+	}
+
+	.suggestion-page .content-wrap-top {
+	    padding-top: 40px;
+	}
+	  
+	 a.btn-lrg {
+	    width: 360px;
+	    height: 66px;
+	    line-height: 66px;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  
+	.content-wrap-home {
+		min-height: 80vh;
+		max-width: 95%;
+		margin: 140px auto 40px;
+		padding: 50px 10px;
+	}
+
+
+
+	.other-pages header,
+	.home-page header {
+		top: 15px;
+    	padding: 0px;
+    	height: auto;
+    	justify-content: center;
+	   /* height: 15vh;*/
+	}
+
+	.other-pages header {
+	    display: none;
+	}
+
+	.logo {
+	    text-align: center;
+	}
+
+	.logo img {
+	    width: 110px;
+	    height: 110px;
+	}
+	.content-wrap-home h2{
+		font-size: 96px;
+		line-height:1;
+	}
+
+	.home-page .main-content {
+		margin-top: 60px
+	   /* min-height: 85vh;*/
+	}
+	.content-wrap-home p{
+		font-size: 24px;
+	}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.content-wrap-home {
+		min-height: 80vh;
+		max-width: 95%;
+		margin: 120px auto 40px;
+		padding: 50px 10px;
+	}
+
+	
+	.logo {
+	    text-align: center;
+	}
+
+	.logo img {
+	    width: 70px;
+	    height: 70px;
+	}
+	.content-wrap-home h2{
+		font-size: 40px;
+		line-height: 0.94;
+	}
+
+	.content-wrap-home p{
+		font-size: 15px;
+		line-height: 23px;
+	}
+
+		/**
+	* Quesiton page
+	**/
+
+	.main-content form .content-wrap {
+		padding: 30px;
+		box-sizing: border-box;
+	}
+	.qustion-single h2{
+		width: auto;
+	}
+
+	.que-ans li {
+	    margin-right: 0;
+	    display: block;
+	    margin-bottom: 15px;
+	}
+
+	.searh-icon img {
+	    width: 120px;
+	}
+	ul.que-ans.ans-text #ck-button button,
+	ul.que-ans.ans-text #ck-button label span{
+		font-size: 13px;
+	}
+
+	ul.que-ans.ans-text #ck-button button {
+	    padding: 20.5px 25px;
+	}
+	.ans-text li a{
+		padding: 18px 30px;
+	}
+	.ans-text li a,
+	.questions-wrap h4{
+		font-size: 13px;
+	}
+	.qustion-single h2{
+		font-size: 21px;
+	}
+	.que-ans li {
+	     display: inline-block;
+	    margin-bottom: 15px;
+	}
+  	/**
+	* Quesiton 2
+	**/
+	.other-pages header{
+		display: none;
+	}
+	.other-pages .main-content{
+		height: auto;
+	}
+
+	.other-pages .content-wrap .content-wrap-single  {
+	    /*height: 98vh;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-around;*/
+	}
+
+
+	.border-radius li {
+	    width: 150px;
+	    height: 150px;
+	    line-height: 186px;
+	    margin: 0 15px;
+	}
+
+
+
+	ul.que-ans.ans-text #ck-button.isRadius {
+	    /*width: auto;
+	    height: initial;
+	    display: inline-block;*/
+	    margin-bottom: 4px;
+	}
+	#ck-button.isCircle {
+	    width: 150px !important;
+	    height: 150px !important;
+	    line-height: 150px;
+	}
+
+
+	.suggestion-page header {
+	    padding: 40px 0 0 0;
+	    height: 140px;
+	    position: inherit;
+	    display: block;
+	}
+
+	.suggestion-page header .logo,
+	.suggestion-page header .logo a{
+	    display: block;
+	}
+
+	.suggestion-page .content-wrap-top {
+	    padding-top: 40px;
+	}
+
+	/*body.other-pages {
+	    min-height: auto;
+	    display: inherit;
+	}*/
+
+	.rectangle{
+		width:90%;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 600px) and (max-width: 767px) {
+	.home-page .main-content {
+		/*margin-top: 60px*/
+	   /* min-height: 85vh;*/
+	}
+
+
+	ul.que-ans.ans-text #ck-button.isRadius{
+		width: 140px;
+		height: 140px;
+		line-height: 140px;
+	}
+
+	.suggestion-link {
+	    margin-top: 35px;
+	}
+
+
+	.suggestion-page header {
+	    padding: 40px 0 0 0;
+	    /* height: 100px; */
+	    position: inherit;
+	    display: block;
+	}
+
+	.suggestion-page .logo,
+	.suggestion-page .logo a,{
+	    display: block;
+	}
+
+
+
+}
+
+@media (max-width: 564px) {
+	header {
+		top: 15px;
+		height: auto;
+		padding: 0px 0px;
+	}
+	.content-wrap-home {
+		min-height: 80vh;
+		max-width: 95%;
+		margin: 140px auto 40px;
+		padding: 50px 10px;
+	}
+	.content-wrap-home h2 {
+		font-size: 28px;
+	}
+
+	.content-wrap-home p {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.main-content form {
+		display: block;
+	}
+	.main-content form .content-wrap {
+		padding: 8px;
+		margin: 50px auto 0px;
+	}
+	.main-content form .content-wrap {
+		padding: 8px;
+		min-width: 70% !important;
+		max-width: 93%;
+		margin: auto;
+	}
+
+	.user-data{
+		width: 100%;
+	}
+	ul.que-ans.ans-text #ck-button {
+	    width: 100%;
+	    height: 60px;
+	}
+
+
+	li#ck-button.isRadius {
+	    width: 150px !important;
+	    height: 150px !important;
+	    line-height: 150px !important;
+	    margin: 15px;
+	}
+
+	.other-pages .content-wrap-single {
+	    height: 98vh;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-evenly;
+	    padding: 20px 0px 20px;
+	}
+	
+	.owl-carousel .owl-item img{
+	    max-width:100%;
+	    width:auto;
+	    height:auto;
+	}
+	.content-wrap-home h2{
+	    margin-bottom:10px;
+	}
+}
+
+@media (min-width: 461px) and (max-width: 534px) {
+
+	ul.que-ans.ans-text #ck-button.isRadius{
+	    margin: 12px !important;
+	}
+
+	ul.que-ans.ans-text #ck-button.isRadius {
+	    width: 150px;
+	    height: 150px;
+	    line-height: 150px;
+	}
+	
+		.content-wrap-home h2{
+	    margin-bottom:10px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+     .home-page {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+  	.home-page .main-content {
+		margin-top: 60px
+	   /* min-height: 85vh;*/
+	}
+	.home-page header {
+	    height: 110px;
+	    padding: 0px;
+	    position: inherit;
+	        margin-bottom: 0px;
+	}
+	.main-content {
+	   /* min-height: 90vh;*/
+	}
+	
+	.logo {
+	    text-align: center;
+	}
+
+	.logo img {
+	    width: 110px;
+	    height: 110px;
+	}
+	.content-wrap-home h2{
+		font-size: 55px;
+		line-height: 0.94;
+	}
+
+	.content-wrap-home p{
+		font-size: 14px;
+    	line-height: 20px;
+	}
+
+
+	.suggestion-page header {
+	    padding: 40px 0 0 0;
+	    height: 140px;
+	    position: inherit;
+	    display: block;
+	}
+
+	.suggestion-page header .logo,
+	.suggestion-page header .logo a{
+	    display: block;
+	}
+
+	.suggestion-page .content-wrap-top {
+	    padding-top: 40px;
+	}
+
+	/**
+	* Quesiton page
+	**/
+
+	.qustion-single{
+	    max-width: 230px;
+	    margin: 20px auto 30px;
+	}
+
+	.qustion-single h2{
+		width: auto;
+	}
+
+	.que-ans li {
+	    margin-right: 0;
+	    /*display: block;*/
+	    margin-bottom: 15px;
+	}
+
+	.searh-icon img {
+	    width: 120px;
+	}
+	.ans-text li a{
+		padding: 18px 30px;
+	}
+	.ans-text li a,
+	.questions-wrap h4{
+		font-size: 13px;
+	}
+	.qustion-single h2{
+		font-size: 22px;
+		line-height: 1.29;
+	}
+
+
+  
+
+	/**
+	* 
+	**/
+  	/**
+	* Quesiton 2
+	**/
+	.other-pages header{
+		display: none;
+	}
+	.other-pages .main-content{
+		height: auto;
+	}
+
+	.other-pages .content-wrap .content-wrap-single  {}
+
+
+
+
+	.border-radius li {
+	    width: 130px;
+	    height: 130px;
+	    line-height: 174px;
+	    margin: 0 3px;
+	}
+
+	/*** suggestion **/
+	.content-wrap-top-img {
+	    width: 140px;
+	    height: 140px;
+	    padding-bottom: 0px;
+	}
+
+	.content-wrap-top-img img {
+	    position: relative;
+	    /*top: -10px;*/
+	    max-width: 75%;
+	}
+
+	.content-wrap-top h2{
+		font-size: 21px;
+		width: auto;
+	}
+
+	.content-wrap-top h1{
+	    font-size: 48px;
+	    line-height:1.2;
+	}
+
+	.suggestion-link {
+	    margin-top: 35px;
+	}
+	.rectangle{
+		width: 100%;
+	}
+	.feature-post p{
+	    width: auto;
+	    font-size: 14px;
+	    line-height: 24px;
+	    letter-spacing: 0px;
+	    word-spacing: 1px;
+	}
+
+	.suggestion-link button,
+	.suggestion-slide a,
+	.feature-post a {
+		font-size: 15px;
+	}
+
+	ul.que-ans.ans-text #ck-button label,
+	ul.que-ans.ans-text #ck-button{
+		width: 100%;
+	}
+	ul.que-ans.ans-text #ck-button.isRadius  label,
+	ul.que-ans.ans-text #ck-button.isRadius {
+		width: 100%;
+	    height: 100%;
+	    display: block;
+	    overflow: hidden;
+	}
+
+
+	.que-ans {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+
+	ul.que-ans.ans-text #ck-button.isRadius {
+	    width: 150px;
+	    height: 150px;
+	    line-height: 150px;
+	    display: inline-block;
+	    margin: 2px;
+	    flex-grow: unset;
+	}
+
+	.que-ans{
+		padding: 0px;
+	}
+
+	#ck-button.isCircle {
+		width: 140px !important;
+    	height: 140px !important;
+    	line-height: 140px;
+	    display: inline-block;
+	}
+	
+	#ck-button.isCircle{
+	    margin:0px 3px;
+	}
+
+	.que-ans .isCircle img{
+	        width: 65px !important;
+	    /*margin-top: -10px;*/
+	}
+
+	ul.que-ans.ans-text #ck-button button,
+	ul.que-ans.ans-text #ck-button label span{
+		font-size: 13px;
+	}
+
+	.suggestion-link h2{
+		font-size: 21px;
+		width: 236px;
+		margin: auto;
+	}
+	.slider {
+	    width: auto !important;
+	}
+	.feature-post a,
+	.suggestion-slide a, .suggestion-link button {
+	    width: 100%;
+	    height: 54px;
+	}
+
+	.feature-post a,
+	.suggestion-slide a {
+	    line-height: 54px;
+	}
+	.feature-post h2{
+		font-size: 20px;
+	}
+
+	.content-wrap-top {
+	    padding-top: 150px;
+	}
+
+
+	body.other-pages {
+	    min-height: auto;
+	    display: inherit;
+	}
+	.other-pages .content-wrap-single {
+	    height: 80vh;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-evenly;
+	    padding: 20px 0px 0px;
+	}
+
+	.home-page .owl-carousel{
+		margin:20px 0px;
+	}
+
+	a.btn-lrg {
+	    width: 100%;
+	    height: 50px;
+	    line-height: 50px;
+	}
+	
+		.content-wrap-home h2{
+	    margin-bottom:10px;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 380px){
+	ul.que-ans.ans-text #ck-button.isRadius {
+	    width: 115px;
+	    height: 115px;
+	    line-height: 115px;
+	    display: inline-block;
+	    margin: 2px;
+	    flex-grow: unset;
+	}
+
+	.home-page .main-content {
+	    margin-top: 30px /* min-height: 85vh;*/;
+	}
+	
+	 .home-page {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+	a.btn-lrg {
+	    width: 100%;
+	    height: 50px;
+	    line-height: 50px;
+	}
+	.content-wrap-home h2{
+	    margin-bottom:15px;
+	    
+	}
+
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+
+	.home-page header {
+	    min-height: auto;
+	    height: auto;
+	    position: inherit;
+	    padding: 10px 0 0 0;
+	}
+	.main-content {
+	   margin: 30px 0px;
+	}
+	
+	.logo {
+	    text-align: center;
+	}
+
+	.logo img {
+	    width: 96px;
+	    height: 96px;
+	}
+	.content-wrap-home h2{
+		font-size: 48px;
+		line-height: 0.94;
+	}
+
+	.content-wrap-home p{
+		font-size: 13px;
+		line-height: 1.38;
+	}
+
+	/**
+	* Quesiton page
+	**/
+	.qustion-single h2{
+		width: auto;
+	}
+
+	.que-ans li {
+	    margin-right: 0;
+	    /*display: block;*/
+	    /*margin-bottom: 20px;*/
+	}
+
+	.ans-icon li {
+	    height: initial;
+	    display: inline-block;
+	    margin-bottom: 7px;
+	}
+
+
+	/**
+	* 
+	**/
+	.other-pages-header{
+		display: none;
+	}
+
+	.border-radius li {
+	    width: 150px;
+	    height: 150px;
+	    line-height: 186px;
+	    margin: 0 15px;
+	}
+
+
+	ul.que-ans.ans-text #ck-button label,
+	ul.que-ans.ans-text #ck-button{
+		width: auto;
+	}
+
+
+	ul.que-ans.ans-text #ck-button.isRadius {
+	    width: 150px;
+	    height: 150px;
+	    display: inline-block;
+	    margin-bottom: 4px;
+	}
+	#ck-button.isCircle {
+	    width: 150px !important;
+	    height: 150px !important;
+	    line-height: 150px;
+	        display: inline-block;
+	}
+
+	.suggestion-page .content-wrap-top{
+		padding-top: 0px;
+	}
+
+	.content-wrap-top h1{
+	    line-height: 90px;
+	}
+	
+	
+	a.btn-lrg {
+	    width: 100%;
+	    height: 50px;
+	    line-height: 50px;
+	}
+
+
+}
